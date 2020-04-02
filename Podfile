@@ -11,6 +11,6 @@ target 'RenovateCocoaPodsSample' do
 
   # Pods for RenovateCocoaPodsSample
   pod 'Alamofire', '5.0.0'
-  pod 'RxSwift', '~> 5.0.0'
+  pod 'RxSwift', '~> 5.1.0'
   pod 'KeychainAccess', '~> 4.0'
 end
