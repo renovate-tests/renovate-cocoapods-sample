@@ -1,12 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-is_running_in_renovate = ENV['HOME'] == '/home/ubuntu'
-if is_running_in_renovate
-  install! 'cocoapods', :integrate_targets => false
-else
-  install! 'cocoapods'
-end
+install! 'cocoapods', :integrate_targets => false
 
 target 'RenovateCocoaPodsSample' do
   # Comment the next line if you don't want to use dynamic frameworks
